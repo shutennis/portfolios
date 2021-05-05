@@ -1,0 +1,633 @@
+* {
+  box-sizing: border-box;
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong,
+ sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+  bottom:0;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;  
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  background:#fff;
+  overflow-x: hidden;
+}
+header{
+  padding:20px 0;
+  background:#fff;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.header-conact{
+  padding-bottom:60px;
+}
+.header-left{
+  float:left;
+}
+.header-left h1{
+  font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    padding: 10px 0 0 0;
+    padding-left:50px;
+}
+.header-right{
+  float:right;
+  padding:15px 30px 0 0;
+}
+.header-right a{
+  margin-right:30px;
+  color:black;
+  padding-bottom:6px;
+}
+.header-right a:hover{
+  border-bottom:2px solid black;
+}
+.main-wrapper{
+  width:100%;
+  width:100%;
+  height:100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+.main{
+  position:absolute;
+  top:40%;
+  left:40%;
+  text-align: center;
+}
+.heading{
+  font-size:50px;
+  font-family: Monotype Corsiva;
+  font-weight:800;
+  letter-spacing: 0.4ch;
+  padding-bottom:20px;
+}
+.main-p{
+  font-size:40px;
+  font-family: Monotype Corsiva;
+  font-weight:700;
+  letter-spacing: 0.3ch;
+}
+.main-wrapper video{
+  min-width:100%;
+  min-height:100vh;
+}
+
+.header-nav{
+  width:100%;
+  background-color:#fff;
+  padding:10px 0;
+  opacity: 0.9;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display:none;
+}
+.header-list{
+  padding-bottom:40px;
+}
+.header-list h2{
+  font-size:25px;
+  margin-left:30px;
+}
+.header-right2{
+  float:right;
+  padding:5px 30px 0 0;
+}
+.fa-bars{
+  font-size:25px;
+  cursor: pointer;
+}
+.header2-nav{
+  padding-top:15px;
+  text-align:center;
+  display:none;
+}
+.header2-nav li{
+  margin-bottom:30px;
+}
+.header2-nav li a{
+  color:black;
+  font-size:18px;
+  padding-bottom:5px;
+}
+.header2-nav li a:hover{
+  border-bottom:1.5px solid black;
+}
+#about{
+  padding-bottom:100px;
+  font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+  padding-top:100px;
+}
+.container1{
+  width:65%;
+  margin:0 auto;
+}
+.about-contact{
+  display:flex;
+}
+.about-item{
+  width:50%;
+}
+.about-textarea{
+  width:50%;
+  text-align:left;
+  padding-top:40px;
+}
+.headnig{
+  font-size:40px;
+  padding-bottom:60px;
+  font-family: Monotype Corsiva;
+  font-weight: 800;
+  letter-spacing:0.3ch;
+}
+.name{
+  font-size:20px;
+  padding-bottom:40px;
+}
+.about-text{
+  line-height:25px;
+  font-size:17px;
+}
+.icon{
+  padding-top:20px;
+}
+.fab{
+  margin-right:30px;
+  font-size:30px;
+  margin-bottom:30px;
+}
+.fa-twitter{
+  color: rgb(108, 163, 246);
+}  
+.fa-instagram{
+  color: rgb(201, 58, 187);
+}
+.skill-wrapper{
+  padding-top:100px;
+}
+.container2{
+  width:75%;
+  margin:0 auto;
+}
+.skill-contact{
+  display:flex;
+  padding-bottom:50px;
+}
+.skill-item{
+  width:33.33333%;
+  padding-left:60px;
+  overflow: hidden;
+  opacity:0;
+  transition: 3.0s;
+}
+.fadein{
+  opacity: 1;
+}
+.skill-item img{
+  width:70%;
+  padding: 30px;
+   border: 1px solid #ececec;
+   border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);  
+  transition: 1s all;
+}
+.skill-item img:hover{
+  transform: scale(1.1,1.1);
+  transition: 1s all;
+}
+.skill-textarea{
+  width:75%;
+  font-family: Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+.skill-top{
+  text-align: center;
+  padding-bottom:50px;
+}
+.skill-top h3{
+  padding-bottom:20px;
+  font-size:40px;
+  font-family: Monotype Corsiva;
+  font-weight: 800;
+  letter-spacing: 0.3ch;
+}
+.skill-top{
+  position:relative;
+}
+.skill-heading::before{
+  position:absolute;
+  top:20px;
+  left:70px;
+  content: '';
+  display: block;
+  width:100px;
+  height:2px;
+  background:#17a2b8;
+}
+.skill-heading::after{
+  content: '';
+  display: block;
+  width:100px;
+  height:2px;
+  background:#17a2b8;
+  position:absolute;
+  top:20px;
+  right:70px;
+}
+.lang{
+  font-weight: 800;
+  text-align: center;
+  padding-top:25px;
+  font-size:18px;
+}
+.skill-text{
+  text-align: justify !important;
+  padding-top:15px;
+}
+.container3{
+  width:75%;
+  margin:0 auto;
+}
+#service{
+  padding-top:70px;
+  background: #ececec;
+  padding-bottom:50px;
+}
+.service-list{
+  padding-bottom:40px;
+  text-align: center;
+  position: relative;
+}
+.heading4::before{
+  content: '';
+  display:block;
+  width:100px;
+  height:2px;
+  background:#17a2b8;
+  position:absolute;
+  top:27px;
+  left:100px;
+}
+.heading4::after{
+  content: '';
+  display:block;
+  width:100px;
+  height:2px;
+  background:#17a2b8;
+  position:absolute;
+  top:27px;
+  right:100px;
+}
+.heading4{
+  font-size:40px;
+  font-family: Monotype Corsiva;
+  font-weight: 800;
+  padding-bottom:30px;
+  letter-spacing: 0.3ch;
+}
+.service-contact{
+  display:flex;
+}
+.service-item{
+  width:33.333333%;
+  opacity:0;
+  transition: 3.0s;
+}
+.fadein{
+  opacity:1;
+}
+.textbox{
+  width:90%;
+  border: 1px solid #ececec;
+  background-color:#fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    height:400px;
+    font-family: Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+.text-h{
+  padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ececec;
+    font-weight: 700;
+}    
+.text-p{
+  line-height: 30px;
+  padding-bottom:30px;
+}
+.price{
+  padding-bottom:10px;
+}
+.works-wrapper{
+  width:100%;
+  padding-top:60px;
+  padding-bottom:100px;
+  height:auto;
+  background: url(https://hikoportfolio-7abab.web.app/works.jpg) no-repeat 100% 100% fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  color:black;
+
+}
+.container4{
+  width:80%;
+  margin:0 auto;
+}
+.works-contact{
+  display:flex;
+}
+.works-item{
+  width:50%;
+  padding:30px;
+  text-align: center;
+  overflow: hidden;
+}
+.works-item p{
+  font-weight: 700;
+  font-size:18px;
+  padding-top:20px;
+  line-height: 30px;
+}
+.works-item img{
+  width:100%;
+  transition: 1s all;
+}
+.works-item img:hover{
+  transform: scale(1.1,1.1);
+  transition: 1s all;
+}
+.works-item1{
+  width:50%;
+  padding:80px 30px 0 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.works-item1 img{
+  width:100%;
+  transition: 1s all;
+}
+.works-item1 img:hover{
+  transform: scale(1.1,1.1);
+  transition: 1s all;
+}
+.works-item1 p{
+  font-weight: 700;
+  font-size:18px;
+  padding-top:20px;
+  line-height: 30px;
+}
+
+.works-list{
+  text-align:center;
+  font-family: Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  padding-bottom:30px;
+}
+.works-list p{
+  font-size:22px;
+}
+.fa-chevron-down {
+  position: absolute;
+  top:80%;
+  left:50%;
+  font-size:30px;
+  border:1px solid #17a2b8;
+  background-color:#17a2b8;
+  border-radius: 50% 50%;
+  color:white;
+  padding:10px 12px;
+  cursor:pointer;
+}
+.fa-chevron-down:hover{
+  opacity:0.7;
+}
+#contact{
+  padding-top:70px;
+  padding-bottom:70px;
+  text-align: center;
+  background: #ececec;
+  position: relative;
+}
+.container5{
+  width:28%;
+  margin:0 auto;
+}
+input{
+  width:380px;
+  border-radius: 7px;
+  padding:10px 0;
+  border: 1px solid black;
+  margin-bottom:20px;
+}
+textarea{
+  width:380px;
+  border-radius: 7px;
+  padding-bottom:60px;
+  margin-bottom:40px;
+  border: 1px solid black;
+}
+.contact-heading{
+  padding-bottom:40px;
+}
+.form-item{
+  text-align: left;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  width: 50%;
+  border: 1px solid #5cb85c;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: white;
+  background-color: #5cb85c;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  opacity:0.7;
+}
+footer{
+  
+  text-align:center;
+  padding:40px 0 0;
+}
+.footer-list{
+  padding-bottom:40px;
+}
+.footer-list a{
+  margin-right:30px;
+  color:black;
+}
+.footer-list a:hover{
+  border-bottom:2px solid black;
+  opacity:0.7;
+}
+.url-p{
+  font-size:10px;
+}
+.url-heading{
+  padding-bottom:8px;
+  font-size:13px;
+}
+.btn2-wrapper{
+  position: absolute;
+  top:90%;
+  right:10%;
+}
+.fa-chevron-up{
+  font-size:30px;
+  border:1px solid #5cb85c;
+  background-color:#5cb85c;
+  border-radius: 50% 50%;
+  color:white;
+  padding:10px 12px;
+  cursor:pointer;
+}
+.fa-chevron-up:hover{
+  opacity:0.7;
+}
+.heading5{
+  font-size:40px;
+  font-family: Monotype Corsiva;
+  font-weight: 800;
+  padding-bottom:30px;
+  letter-spacing: 0.3ch;
+}
+.heading5::before{
+  content: '';
+  display: block;
+  width:100px;
+  height:2px;
+  background: #17a2b8;
+  position:absolute;
+  top:23px;
+  left:-100px;
+}
+.heading5::after{
+  content: '';
+  display: block;
+  width:100px;
+  height:2px;
+  background: #17a2b8;
+  position:absolute;
+  top:23px;
+  right:-100px;
+}
+.contact-heading{
+  position: relative;
+}
+.works-list{
+  position:relative;
+}
